@@ -13,5 +13,5 @@ func init() {
 }
 
 func helloWorld(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprint(w, "Hello, World from Go! Continuously deployed from GitHub to Cloud Run.")
+	fmt.Fprint(w, "Hello, World from Go! Continuously deployed from GitHub to Cloud Run, V2")
 }
